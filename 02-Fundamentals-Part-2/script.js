@@ -64,3 +64,27 @@ if (hasDriversLicense) console.log('I can drive :D');
 // const Germany = percentageOfWorld1(80);
 // const Japan = percentageOfWorld1(120);
 // console.log(Greece, Germany, Japan);
+
+///////////////////////////////////////////////
+//3 ARROW FUNCTION
+
+// const calcAge3 = (birthYeah) => 2026 - birthYeah;
+// const age3 = calcAge3(1994);
+// console.log(age3);
+
+// const yearsUntilRetirement = (birthYeah, firstName) => {
+//   const age = 2026 - birthYeah;
+//   const retirement = 65 - age;
+//   //return retirements years
+//   return `${firstName} retires in ${retirement} years`;
+// };
+
+// console.log(yearsUntilRetirement(1994, "Manos"));
+// console.log(yearsUntilRetirement(1980, "lora"));
+
+// const percentageOfWorld3 = (poppulation) => (poppulation / 7900) * 100;
+
+// const Greece = percentageOfWorld3(10);
+// const Germany = percentageOfWorld3(80);
+// const Japan = percentageOfWorld3(120);
+// console.log(Greece, Germany, Japan);
