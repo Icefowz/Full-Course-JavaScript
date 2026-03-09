@@ -88,3 +88,16 @@ if (hasDriversLicense) console.log('I can drive :D');
 // const Germany = percentageOfWorld3(80);
 // const Japan = percentageOfWorld3(120);
 // console.log(Greece, Germany, Japan);
+
+// 4
+//////Function Calling Other Functions
+// function cutFruitPieces(fruit) {
+//   return fruit * 4;
+// }
+// function fruitProcessor(apples, oranges) {
+//   const applePieces = cutFruitPieces(apples);
+//   const orangePieces = cutFruitPieces(oranges);
+//   const juice = `juice with ${applePieces} piece of apple and ${orangePieces} piece of orange`;
+//   return juice;
+// }
+// console.log(fruitProcessor(3, 4));
