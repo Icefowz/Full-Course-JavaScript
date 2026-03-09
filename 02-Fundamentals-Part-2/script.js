@@ -101,3 +101,23 @@ if (hasDriversLicense) console.log('I can drive :D');
 //   return juice;
 // }
 // console.log(fruitProcessor(3, 4));
+
+//Challenge ##1 Using Function
+
+// const calcAverage = (round1,round2,round3) => (round1+round2+round3)  / 3;
+
+// const scoreDolphins = calcAverage(15,18,40);
+// const scoreKoalas = calcAverage(16,54,34);
+
+// function checkWinner(avgDolphins,avgKoalas) {
+//     if ( avgDolphins > (avgKoalas * 2) ) {
+//         console.log(`Dolphin win (${avgDolphins} vs. ${avgKoalas})`);
+//         return;
+//     }
+//     if ( avgKoalas > (avgDolphins * 2) ) {
+//         console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
+//         return;
+//     }
+//     console.log("no team wins")
+// }
+// checkWinner(scoreDolphins,scoreKoalas);
