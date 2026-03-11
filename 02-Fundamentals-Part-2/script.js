@@ -197,3 +197,35 @@
 // const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 // console.log(bills, tips, totals);
+
+// const Manos = {
+//   firstName: "Manos",
+//   lastName: "Xaris",
+//   age: 2037 - 1994,
+//   job: "developer",
+//   friends: ["Michael", "peter", "Steven"],
+// };
+
+// const nameKey = "Name";
+// console.log(Manos["first" + nameKey]);
+// console.log(Manos["last" + nameKey]);
+
+// const interestedIn = prompt(
+//   "What do you want to know about Manos? choose between firstname, lastname, age, job and friends",
+// );
+// if (Manos[interestedIn]) {
+//   console.log(Manos[interestedIn]);
+// } else {
+//   console.log(
+//     "Wrong Request! Choose between firstname, lastname, age, job and friends  ",
+//   );
+// }
+// //challenge
+// //Manos has 3 friends and his best friend is called Michael
+// console.log(
+//   Manos.firstName,
+//   "has",
+//   Manos.friends.length,
+//   " friends and his best friend is",
+//   Manos.friends[0],
+// );
