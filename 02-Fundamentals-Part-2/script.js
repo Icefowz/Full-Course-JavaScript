@@ -198,7 +198,8 @@
 
 // console.log(bills, tips, totals);
 
-// const Manos = {
+//  8 introduction to objects
+//   const Manos = {
 //   firstName: "Manos",
 //   lastName: "Xaris",
 //   age: 2037 - 1994,
@@ -220,7 +221,7 @@
 //     "Wrong Request! Choose between firstname, lastname, age, job and friends  ",
 //   );
 // }
-// //challenge
+// 9 Dot vs. Bracket Notation //challenge
 // //Manos has 3 friends and his best friend is called Michael
 // console.log(
 //   Manos.firstName,
@@ -229,3 +230,16 @@
 //   " friends and his best friend is",
 //   Manos.friends[0],
 // );
+// const myCountry = {
+//   country: "Finland",
+//   capital: "Helsinki",
+//   language: "finnish",
+//   population: 6,
+//   neighbours: ["Norway", "Sweden", "Russia"],
+// };
+// myCountry.population += 2;
+// console.log(myCountry.population);
+
+// myCountry["population"] -= 2;
+// console.log(myCountry.population);
+// 10 object methods
