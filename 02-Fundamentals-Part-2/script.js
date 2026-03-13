@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 // /*
 // ///////////////////////////////////////
 // // Activating Strict Mode
@@ -243,3 +243,52 @@
 // myCountry["population"] -= 2;
 // console.log(myCountry.population);
 // 10 object methods
+// const Manos = {
+//   firstName: "Manos",
+//   lastName: "Xaris",
+//   age: 2037 - 1994,
+//   job: "developer",
+//   friends: ["Michael", "peter", "Steven"],
+//   getSum: function () {
+//     return `${this.firstName} ${this.lastName} ${this.age} ${this.job} ${this.friends}`;
+//   },
+// };
+
+// console.log(Manos.getSum());
+
+// const mark = {
+//   fullName: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+//   calcBMI: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
+
+// const john = {
+//   fullName: "John Smith",
+//   mass: 92,
+//   height: 1.95,
+//   calcBMI: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
+
+// mark.calcBMI();
+// john.calcBMI();
+
+// console.log(mark.bmi, john.bmi);
+
+// // "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
+
+// if (mark.bmi > john.bmi) {
+//   console.log(
+//     `${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`,
+//   );
+// } else if (john.bmi > mark.bmi) {
+//   console.log(
+//     `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`,
+//   );
+// }
