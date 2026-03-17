@@ -304,3 +304,45 @@
 // for (let vote = 1; vote <= 50; vote++) {
 //   console.log(`Voter number ${vote} is currently voting`);
 // }
+///////////////////11////////////////////
+// Looping Arrays,Breaking and continuing
+const types = [];
+const manos = [
+  "Manos",
+  "Xaris",
+  2037 - 1994,
+  "developer",
+  ["Michael", "peter", "Steven"],
+  true,
+];
+
+for (let i = 0; i < manos.length; i++) {
+  //reading manos array
+  console.log(manos[i], typeof manos[i]);
+  // filling types array
+  // types[i] = typeof manos[i];
+  //another way with .push
+  types.push(typeof manos[i]);
+}
+console.log(types);
+
+// loop age calc
+const years = [1994, 2005, 2015, 2022];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2026 - years[i]);
+}
+console.log(ages);
+
+//continue and break
+console.log("----ONLY STRING----");
+for (let i = 0; i < manos.length; i++) {
+  if (typeof manos[i] !== "string") continue;
+  console.log(manos[i], typeof manos[i]);
+}
+console.log("----ONLY BREAK----");
+for (let i = 0; i < manos.length; i++) {
+  if (typeof manos[i] === "number") break;
+  console.log(manos[i], typeof manos[i]);
+}
