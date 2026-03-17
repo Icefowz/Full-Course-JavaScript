@@ -292,3 +292,15 @@
 //     `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`,
 //   );
 // }
+
+///////////////10//////////////
+// for Loop
+
+// for loop keeps running while condition is true
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`lifting weights day ${rep}`);
+// }
+//Asignment Tansk
+// for (let vote = 1; vote <= 50; vote++) {
+//   console.log(`Voter number ${vote} is currently voting`);
+// }
