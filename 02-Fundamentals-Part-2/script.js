@@ -366,3 +366,41 @@
 //     console.log(`rep ${rep}`);
 //   }
 // }
+///////////////13/////////////////
+//The while Loop
+// for (let exercise = 1; exercise < 4; exercise++) {
+//   console.log(`--------Starting exercise ${exercise} `);
+// }
+
+// ///comparing same code with the while
+// let rep = 1;
+// while (rep <= 5) {
+//   console.log(`While: rep ${rep}`);
+//   rep++;
+// }
+// let dice = Math.trunc(Math.random() * 6) + 1;
+// while (dice !== 6) {
+//   console.log(`roll ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) {
+//     console.log("rolled 6");
+//   }
+// }
+////////////////14///////////
+//Challenge
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
+
+// /* Write your code below. Good luck! 🙂 */
+
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+// for(let i = 0; i < bills.length; i++){
+//     const tip = calcTip(bills[i]);
+//     tips.push(tip);
+
+//      totals.push(bills[i] + tip);
+
+// }
